@@ -44,6 +44,6 @@ def move(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], user_pos = 1, us
   if (user_char!= "X" or user_char!= "O")
     user_char = "X"
   end
-  board[movement] = user_char
+  board[user_pos] = user_char
   display_board(board)
 end
