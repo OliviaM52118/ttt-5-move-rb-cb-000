@@ -37,6 +37,7 @@ def input_to_index(temp_char)
     temp = 9
   end
   temp_final = temp - 1
+  return temp_final
 end
 
 def move()
