@@ -41,5 +41,5 @@ def input_to_index(temp_char)
 end
 
 def move(board, user_pos = "1", user_char = "X")
-  movement = 
+  movement = input_to_index(user_pos)
 end
