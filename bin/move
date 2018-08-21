@@ -7,3 +7,5 @@ puts "Welcome to Tic Tac Toe"
 temp1 = gets.strip
 puts "Where would you like to go?"
 temp2 = gets.strip
+puts "What character would you like to use?"
+temp2 = gets.strip
