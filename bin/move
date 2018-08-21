@@ -5,5 +5,5 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 puts "Welcome to Tic Tac Toe"
 temp1 = gets.strip
-puts ""
+puts "Where would you like to go?"
 temp2 = gets.strip
