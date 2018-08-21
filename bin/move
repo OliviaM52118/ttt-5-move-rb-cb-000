@@ -10,4 +10,4 @@ temp1 = gets.strip
 puts "What character would you like to use?"
 temp2 = gets.strip
 
-move(my_board, tempx, tempx)
+move(my_board, temp1, temp2)
