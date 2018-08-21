@@ -46,5 +46,5 @@ def move(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], user_pos = "1", 
     user_char = "X"
   end
   board[movement] = user_char
-#  display_board(board)
+  display_board(board)
 end
