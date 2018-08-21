@@ -41,9 +41,6 @@ def input_to_index(temp_char)
 end
 
 def move(board, user_pos, user_char = "X")
-  if (user_char!= "X" or user_char!= "O")
-    user_char = "X"
-  end
   board[user_pos] = user_char
   display_board(board)
 end
