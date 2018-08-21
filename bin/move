@@ -3,11 +3,11 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-#my_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#puts "Welcome to Tic Tac Toe"
-#puts "Where would you like to go? (1-9)"
-#temp1 = gets.strip
-#puts "What character would you like to use? (X/O)"
-#temp2 = gets.strip
-#move(my_board, temp1, temp2)
-#display_board(my_board)
+my_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Welcome to Tic Tac Toe"
+puts "Where would you like to go? (1-9)"
+temp1 = gets.strip
+puts "What character would you like to use? (X/O)"
+temp2 = gets.strip
+move(my_board, temp1, temp2)
+display_board(my_board)
