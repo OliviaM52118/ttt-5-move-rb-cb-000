@@ -42,6 +42,9 @@ end
 
 def move(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], user_pos = "1", user_char = "X")
   movement = input_to_index(user_pos)
+  if (user_char!= "X" or user_char!= "O")
+    user_char = "X"
+  end
   board[movement] = user_char
 #  display_board(board)
 end
